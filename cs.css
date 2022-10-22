@@ -1,0 +1,1026 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+.card:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header {
+
+    border-bottom: 1px solid grey !important;
+
+}
+
+
+
+/* YE SECTION PURI WEB KA CARD PAR APPLY HA */
+.img-container {
+
+    position: relative;
+}
+
+.image {
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overley {
+
+    transition: .5s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    position: absolute;
+}
+
+.img-container:hover .image {
+
+    opacity: 0.4;
+}
+
+.img-container:hover .overley {
+
+    opacity: 1;
+}
+
+/* SECTION OF CARD END */
+
+/* INDEX PAGE SLIDER */
+.slider1 {
+
+    position: relative;
+    background-image: url("img/Honda_Civic.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 650px;
+    animation: changeimage 20s linear infinite;
+}
+
+
+/* index page heading */
+.heading1 {
+
+    color: red;
+    font-weight: 900;
+
+    font-size: 35px;
+}
+
+.heading2 {
+
+    color: #3F0071;
+    font-weight: bold;
+}
+.heading3{
+
+    color: red;
+}
+
+@keyframes changeimage {
+
+    0% {
+        background-image: url("img/Honda_Civic.jpg");
+    }
+
+    25% {
+        background-image: url("toyota\ banner.jpg");
+    }
+
+    50% {
+        background-image: url("kiabanner.jpg");
+    }
+
+
+
+    100% {
+        background-image: url("img/Honda_Civic.jpg");
+    }
+
+
+
+}
+
+/* SLIDER END */
+/* honda br-v */
+.landcruiser {
+
+
+    position: relative;
+    animation: landcruiser 10s linear infinite;
+
+    background-image: url("Honda\ BR-V\ CVT\ S\ 1.5\ L.jpg");
+    background-position: 40% 60%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+/* Land Cruiser Detail page */
+
+
+
+/* detail page end */
+@keyframes landcruiser {
+
+    0% {
+        background-image: url("toyota/toyota\ landcruiser.jpg");
+
+    }
+
+    25% {
+
+        background-image: url("toyota/Toyota\ Launches\ New\ Land\ Cruiser\ 2.jpg");
+
+
+    }
+
+    75% {
+
+        background-image: url("toyota/Toyota\ Launches\ New\ Land\ Cruiser\ 2.jpg");
+
+    }
+
+    100% {
+        background-image: url("toyota/toyota\ landcruiser.jpg");
+
+    }
+
+
+}
+
+/* sienta car */
+.sientacard {
+    position: relative;
+    animation: sientacard 10s linear infinite;
+
+    background-image: url("sienta---super-white-ii.jpg");
+    background-position: 20% 80%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    animation: sientacard 10s linear infinite;
+}
+
+
+
+@keyframes sientacard {
+
+    0% {
+        background-image: url("sienta---super-white-ii.jpg");
+    }
+
+    25% {
+
+        background-image: url("sienta2.jpg");
+
+    }
+
+    75% {
+
+        background-image: url("sienta-brochure.jpg");
+    }
+
+    100% {
+        background-image: url("sienta---super-white-ii.jpg");
+    }
+
+
+}
+
+/* 
+TOYOTA CR YARIS */
+.cr-yaris {
+    position: relative;
+    animation: yaris 10s linear infinite;
+
+    background-image: url("toyota/cr\ yris\ card\ 1.jpg");
+    background-position: 20% 80%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes yaris {
+    0% {
+
+        background-image: url("toyota/cr\ yris\ card\ 1.jpg");
+    }
+
+    25% {
+        background-image: url("toyota/cr\ yaris\ card\ 3.jpg");
+    }
+
+    50% {
+        background-image: url("toyota/cr\ yaris\ card\ 3.jpg");
+    }
+
+    100% {
+        background-image: url("toyota/cr\ yris\ card\ 1.jpg");
+    }
+}
+
+
+/* toyota RAIZ */
+.Raize {
+
+    background-image: url("toyota/raize\ card1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: Raize 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes Raize {
+
+    0% {
+
+        background-image: url("toyota/raize\ card1.jpg");
+
+    }
+
+    25% {
+        background-image: url("toyota/raize\ card2.jpg");
+    }
+
+    75% {
+        background-image: url("toyota/raizecard2.jpg");
+    }
+
+    100% {
+        background-image: url("toyota/raize\ card1.jpg");
+    }
+
+}
+
+
+/* RAIZE end */
+
+
+/* NOAh :start */
+
+.noah {
+
+    background-image: url("toyota/noanslider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: noah 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes noah {
+
+    0% {
+
+        background-image: url("toyota/noancard1.jpg");
+
+    }
+
+    25% {
+        background-image: url("toyota/noancard2.jpg");
+    }
+
+    75% {
+        background-image: url("toyota/noancard3.jpg");
+    }
+
+    100% {
+        background-image: url("toyota/noancard1.jpg");
+    }
+
+}
+
+/* noan end */
+
+/* toyota sport car */
+
+.toyotasportcar {
+
+    background-image: url("toyota/noanslider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: toyotasportcar 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes toyotasportcar {
+
+    0% {
+
+        background-image: url("toyota/sportcar1.jpg");
+
+    }
+
+    25% {
+        background-image: url("toyota/sportcar2.jpg");
+    }
+
+    75% {
+        background-image: url("toyota/sportcar3.jpg");
+    }
+
+    100% {
+        background-image: url("toyota/sportcar1.jpg");
+    }
+
+}
+
+.hondacity {
+
+    background-image: url("honda/hondacity1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: hondacity 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes hondacity {
+
+    0% {
+
+        background-image: url("honda/hondacity1.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/hondacity2.jpg");
+    }
+
+    75% {
+        background-image: url("honda/hondacity3.jpg");
+    }
+
+    100% {
+        background-image: url("honda/hondacity41.jpg");
+    }
+
+}
+
+/* 
+        honda brv */
+.brv {
+
+    background-image: url("honda/hondacity1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: brv 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes brv {
+
+    0% {
+
+        background-image: url("honda/brv-gallery-rear-750x420.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/brv.jpg");
+    }
+
+    75% {
+        background-image: url("honda/brv23.jpg");
+    }
+
+    100% {
+        background-image: url("honda/brv-gallery-rear-750x420.jpg");
+    }
+
+}
+
+/* 
+        br v - end */
+
+/* CIVIC START  */
+
+.civic {
+
+    background-image: url("honda/hondacity1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: civic 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes civic {
+
+    0% {
+
+        background-image: url("honda/hondacivic.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/hondacivic2.jpg");
+    }
+
+    75% {
+        background-image: url("honda/hondacivic3.jpg");
+    }
+
+    100% {
+        background-image: url("honda/hondacivic.jpg");
+    }
+
+}
+
+/* CIVIC END */
+
+
+/* HONDA CRV */
+
+.CR-V {
+
+    background-image: url("honda/crv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: CR-V 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes CR-V {
+
+    0% {
+
+        background-image: url("honda/crv4.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/crv2.jpg");
+    }
+
+    75% {
+        background-image: url("honda/crv3.jpg");
+    }
+
+    100% {
+        background-image: url("honda/crv.jpg");
+    }
+
+}
+
+
+/* HONDA HR-V */
+
+.Hr-v {
+
+    background-image: url("honda/hrv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: Hr-v 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes Hr-v {
+
+    0% {
+
+        background-image: url("honda/vezel.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/vezel2.jpg");
+    }
+
+    75% {
+        background-image: url("honda/vezel3.jpg");
+    }
+
+    100% {
+        background-image: url("honda/vezel.jpg");
+    }
+
+}
+
+
+/* HONDA GRACE */
+
+
+
+.grace {
+
+    background-image: url("honda/hrv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: grace 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes grace {
+
+    0% {
+
+        background-image: url("honda/grace1.jpg");
+
+    }
+
+    25% {
+        background-image: url("honda/grace2.jpg");
+    }
+
+    75% {
+        background-image: url("honda/grace3.jpg");
+    }
+
+    100% {
+        background-image: url("honda/grace4.jpg");
+    }
+
+}
+
+
+
+/* kia motor section */
+/* ALPHA STORAGE CAR */
+
+
+.aplphastorage {
+
+    background-image: url("kia/kiasportage1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: aplphastorage 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes aplphastorage {
+
+    0% {
+
+        background-image: url("kia/kiasportage1.jpeg");
+
+    }
+
+    25% {
+        background-image: url("kia/kiasportage2.jpeg");
+    }
+
+    75% {
+        background-image: url("kia/kiasportage3.jpeg");
+    }
+
+    100% {
+        background-image: url("kia/kiasportage4.jpeg");
+    }
+
+}
+
+/* kia aplha awd */
+
+
+.AW-D {
+
+    background-image: url("kia/awd\ .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: AW-D 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes AW-D {
+
+    0% {
+
+        background-image: url("kia/awd\ .jpg");
+
+    }
+
+    25% {
+        background-image: url("kia/awd2.jpg");
+    }
+
+    75% {
+        background-image: url("kia/awd3.jpg");
+    }
+
+    100% {
+        background-image: url("kia/awd4.jpg");
+    }
+
+}
+
+/* picanto */
+
+.picanto {
+
+    background-image: url("kia/picanto1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: picanto 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes picanto {
+
+    0% {
+
+        background-image: url("kia/picanto3.jpg");
+
+    }
+
+    25% {
+        background-image: url("kia/picanto12.png");
+    }
+
+    75% {
+        background-image: url("kia/picanto3.jpg");
+    }
+
+    100% {
+        background-image: url("kia/picanto12.png");
+    }
+
+}
+
+/* kia Carnival :start */
+
+.Carnival {
+
+    background-image: url("kia/carnival1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: Carnival 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes Carnival {
+
+    0% {
+
+        background-image: url("kia/carnival1.jpg");
+
+    }
+
+    25% {
+        background-image: url("kia/Kia-Grand-Carnival-4th-generation1-798x452.png");
+    }
+
+    75% {
+        background-image: url("kia/carnival2.jpg");
+    }
+
+    100% {
+        background-image: url("kia/Kia-carnival-interior-pictures-798x336.jpg");
+    }
+
+}
+
+
+/* KIA SORENTO AWD */
+
+.Sorentoawd {
+
+    background-image: url("kia/sorento1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: Sorentoawd 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes Sorentoawd {
+
+    0% {
+
+        background-image: url("kia/sorento2.jpg");
+
+    }
+
+    25% {
+        background-image: url("kia/sorento3.jpg");
+    }
+
+    75% {
+        background-image: url("kia/sorento1.jpg");
+    }
+
+    100% {
+        background-image: url("kia/sorento4.jpg");
+    }
+
+}
+
+/* STONIC CAR */
+
+
+.stonic {
+
+    background-image: url("kia/STONIC1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: stonic 13s linear infinite;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: 30% 60%;
+}
+
+
+@keyframes stonic {
+
+    0% {
+
+        background-image: url("kia/STONIC2.jpg");
+
+    }
+
+    25% {
+        background-image: url("kia/STONIC3.jpg");
+    }
+
+    75% {
+        background-image: url("kia/STONIC4.jpg");
+    }
+
+    100% {
+        background-image: url("kia/STONIC4.jpg");
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* 
+footer */
+
+
+footer a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+
+
+    color: red;
+}
+
+
+@media only screen and (max-width:1400px) {
+
+    .motorcyclehead {
+
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .motorcyclehead {
+
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+
+    .motorcyclehead {
+
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+
+    .motorcyclehead {
+
+        font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width:1400px) {
+
+    .heading20 {
+
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .heading20 {
+
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+
+    .heading20 {
+
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+
+    .heading20 {
+
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+
+
+/* Responsive Foam */
+
+
+/* @media only screen and ( max-width:1400px ){
+
+    .locationmap1 iframe{
+
+        width: 1300px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .locationmap1 iframe{
+
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .locationmap1 iframe{
+
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .locationmap1 iframe{
+
+        width: 1050px;
+        padding-inline-start: 80px;
+    }
+} */
+
+
+/* toyota foam */
+
+
+.toyotaplan h3 {
+
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #fff;
+}
+
+.toyotaplan p {
+    text-decoration: none solid rgb(237, 28, 36);
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 25px;
+}
+
+.productoffer {
+
+    background-color: #434243;
+    color: white;
+}
+
+
+
+.icon i {
+
+    font-size: 40px;
+}
+
+footer a:hover {
+
+    color: bisque !important;
+}
+
+
+/* footer responsive
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+
+    footer h3 {
+        font-size: 40px;
+        
+    }
+    
+ }
+        /* HONDA HEADING */
+@media (min-width: 300px) { 
+
+    .respo1 {
+        font-size: 30px;
+        
+    }
+    
+ }
+@media (min-width: 576px) { 
+
+    .respo1 {
+        font-size: 45px;
+        
+    }
+    
+ }
+@media (min-width: 1200px) { 
+
+    .repo2 {
+        font-size: 70px;
+        text-decoration: underline;
+        
+        
+    }
+    
+ }
+
